@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  address: MyString
-  latitude: 1.5
-  longitude: 1.5
+address_one:
+  address: SF - Center
+  latitude: 37.77493
+  longitude: -122.41942
 
-two:
-  address: MyString
-  latitude: 1.5
-  longitude: 1.5
+address_two:
+  address: Uber HQ
+  latitude: 37.78804
+  longitude: -122.402934

@@ -1,7 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  full_name: MyString
+actor_one:
+  full_name: Actor One
 
-two:
-  full_name: MyString
+actor_two:
+  full_name: Actor Two

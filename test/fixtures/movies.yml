@@ -1,19 +1,37 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  release_year: 1
+movie_one:
+  title: Movie One
+  release_year: 1996
   fun_facts: MyText
-  director_id: 1
-  distributor_id: 1
-  production_company_id: 1
-  writer_id: 1
+  director: director_two
+  distributor: distributor_two
+  production_company: production_company_two
+  writer: writer_two
+  locations: address_one, address_two
+  actors: actor_one, actor_two
 
-two:
-  title: MyString
-  release_year: 1
+
+movie_two:
+  title: Movie Two
+  release_year: 1996
   fun_facts: MyText
-  director_id: 1
-  distributor_id: 1
-  production_company_id: 1
-  writer_id: 1
+  director: director_two
+  distributor: distributor_two
+  production_company: production_company_two
+  writer: writer_two
+  locations: address_one, address_two
+  actors: actor_two
+
+
+movie_three:
+ title: Movie Three
+ release_year: 1996
+ fun_facts: MyText
+ director: director_one
+ distributor: distributor_one
+ production_company: production_company_one
+ writer: writer_one
+ locations: address_one
+ actors: actor_one
+

@@ -52,20 +52,16 @@ ActiveRecord::Schema.define(version: 20150922002435) do
   add_index "locations", ["longitude"], name: "index_locations_on_longitude", using: :btree
 
   create_table "movie_actors", force: :cascade do |t|
-    t.integer  "movie_id",   null: false
-    t.integer  "actor_id",   null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer "movie_id", null: false
+    t.integer "actor_id", null: false
   end
 
   add_index "movie_actors", ["actor_id"], name: "index_movie_actors_on_actor_id", using: :btree
   add_index "movie_actors", ["movie_id"], name: "index_movie_actors_on_movie_id", using: :btree
 
   create_table "movie_locations", force: :cascade do |t|
-    t.integer  "movie_id",    null: false
-    t.integer  "location_id", null: false
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.integer "movie_id",    null: false
+    t.integer "location_id", null: false
   end
 
   add_index "movie_locations", ["location_id"], name: "index_movie_locations_on_location_id", using: :btree

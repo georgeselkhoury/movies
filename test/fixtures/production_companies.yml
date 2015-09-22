@@ -1,7 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
+production_company_one:
+  name: Production Company One
 
-two:
-  name: MyString
+production_company_two:
+  name: Production Company Two

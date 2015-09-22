@@ -4,8 +4,6 @@ class CreateMovieLocations < ActiveRecord::Migration
       t.integer :movie_id, null: false
       t.integer :location_id, null: false
 
-      t.timestamps null: false
-
       t.index :movie_id
       t.index :location_id
     end
