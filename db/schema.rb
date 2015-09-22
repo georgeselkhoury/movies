@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150922002435) do
+ActiveRecord::Schema.define(version: 20150922195138) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -42,10 +42,11 @@ ActiveRecord::Schema.define(version: 20150922002435) do
 
   create_table "locations", force: :cascade do |t|
     t.string   "address",    null: false
-    t.float    "latitude",   null: false
-    t.float    "longitude",  null: false
+    t.float    "latitude",  null: false
+    t.float    "longitude", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text     "fun_facts"
   end
 
   add_index "locations", ["latitude"], name: "index_locations_on_latitude", using: :btree
@@ -70,7 +71,6 @@ ActiveRecord::Schema.define(version: 20150922002435) do
   create_table "movies", force: :cascade do |t|
     t.string   "title",                 null: false
     t.integer  "release_year",          null: false
-    t.text     "fun_facts"
     t.integer  "director_id"
     t.integer  "distributor_id"
     t.integer  "production_company_id"

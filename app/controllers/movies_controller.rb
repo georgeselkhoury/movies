@@ -1,7 +1,7 @@
 class MoviesController < ApplicationController
   def index
 
-    @movies = Movie.all
+    @movies = Movie.includes(:actors, :director, :distributor, :production_company, :writer, :locations)
 
     unless params[:title].blank?
       @movies = @movies.where('lower(title) like ?', "%#{params[:title].downcase}%")

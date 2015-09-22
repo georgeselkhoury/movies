@@ -3,7 +3,6 @@
 movie_one:
   title: Movie One
   release_year: 1996
-  fun_facts: MyText
   director: director_two
   distributor: distributor_two
   production_company: production_company_two
@@ -15,7 +14,6 @@ movie_one:
 movie_two:
   title: Movie Two
   release_year: 1996
-  fun_facts: MyText
   director: director_two
   distributor: distributor_two
   production_company: production_company_two
@@ -27,7 +25,6 @@ movie_two:
 movie_three:
  title: Movie Three
  release_year: 1996
- fun_facts: MyText
  director: director_one
  distributor: distributor_one
  production_company: production_company_one

@@ -4,8 +4,10 @@ address_one:
   address: SF - Center
   latitude: 37.77493
   longitude: -122.41942
+  fun_facts: Fact One
 
 address_two:
   address: Uber HQ
   latitude: 37.78804
   longitude: -122.402934
+  fun_facts: Fact Two
