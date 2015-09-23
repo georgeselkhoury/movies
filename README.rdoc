@@ -1,4 +1,3 @@
-Movies by Locations
-===================
+#MMovies by Locations
 
 Movies by Locations maintains a directory of movies along with the locations where they have been filmed
