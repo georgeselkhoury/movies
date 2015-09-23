@@ -18,7 +18,7 @@ end
 
 json.locations movie.locations do |location|
   json.id location.id
-  json.address location.id
+  json.address location.address
   json.latitude  location.latitude
   json.longitude  location.longitude
   json.fun_facts  location.fun_facts.blank? ? '' : location.fun_facts
