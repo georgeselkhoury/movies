@@ -11,3 +11,10 @@ address_two:
   latitude: 37.78804
   longitude: -122.402934
   fun_facts: Fact Two
+
+
+address_three:
+  address: Seattle - Center
+  latitude: 47.6097
+  longitude: -122.3331
+  fun_facts: Fact Three

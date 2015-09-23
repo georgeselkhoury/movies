@@ -29,6 +29,6 @@ movie_three:
  distributor: distributor_one
  production_company: production_company_one
  writer: writer_one
- locations: address_one
+ locations: address_three
  actors: actor_one
 

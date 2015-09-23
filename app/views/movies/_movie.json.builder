@@ -1,4 +1,4 @@
-json.extract! movie, :id, :title, :release_year
+json.extract! movie, :id, :title, :release_year, :created_at, :updated_at
 
 unless movie.writer.nil?
   json.extract! movie, :writer

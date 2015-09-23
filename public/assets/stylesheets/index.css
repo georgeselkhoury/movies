@@ -1,0 +1,19 @@
+#map {
+    width: 100%;
+    height: 540px;
+}
+
+.search-container input.form-control {
+    border-radius: 0px;
+}
+
+.search-container span.input-group-addon {
+    top: 0;
+    border-radius: 0px;
+}
+
+#loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
