@@ -6,6 +6,4 @@ class Location < ActiveRecord::Base
 
   geocoded_by :address, if: ->(obj){ obj.address.present? and obj.address_changed? and (obj.latitude.nil? || obj.longitude.nil?) }
   after_validation :geocode
-
-  before_validation :set_defaults
 end
