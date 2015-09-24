@@ -86,10 +86,13 @@ http://movies-by-locations.herokuapp.com/locations?latitude=47.6097&longitude=-1
 You can find a website application consuming the APIs on:
 http://movies-by-locations.herokuapp.com/
 
+The website supports a movie search and instant results updates on the map for the locations that match the search criteria.  
+
 Have fun using the website and try the following:
 
 * Find all the movies that's been filmed at Alcatraz?
 * Find where the Godzilla went in SF?
+* Find where the Steve Jobs movie have been filmed in SF?
 
 ## Code Review Instructions
 
@@ -98,10 +101,9 @@ Backend:
 * Models to get an understanding of the object relationships
 * Rake tasks used to import the data 
  
- Website:
- * Code located in public folder
- * index.js contains all the website functionalities
-
+Website:
+* Code located in public folder
+* index.js contains all the website functionalities
 
 ## Unit Test
 
@@ -151,7 +153,6 @@ Add caching with memcached on the APIs
 ##### Data Import
 
 Add more functionalities to the rake task movies:create_movies_database for data imports. Support multiple data sources, retries and multiple runs.
-
 
 
 ## Dependencies
