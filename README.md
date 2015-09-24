@@ -96,8 +96,7 @@ Have fun using the website and try the following:
 
 ## iPhone App Client (Extra Feature)
 
-You can find the iPhone App Client on the [Movie-App GitHub repository](https://github.com/georgeselkhoury/Movie-App)
-You can find screenshots of the iPhone App [here](https://drive.google.com/a/attendible.com/folderview?id=0ByxU7-D_eJKid0pqVDNsclRKVFE&usp=sharing#)
+You can find the iPhone App Client [here](https://github.com/georgeselkhoury/Movie-App) and screenshots [here](https://drive.google.com/a/attendible.com/folderview?id=0ByxU7-D_eJKid0pqVDNsclRKVFE&usp=sharing#)
 
 ## Code Review Instructions
 
