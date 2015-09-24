@@ -12,7 +12,6 @@ $(function () {
     };
 
     var map = new google.maps.Map(mapCanvas, mapOptions);
-    var locations = [];
 
     var locations_hash = {}
     var locations_markers = {};
@@ -24,8 +23,7 @@ $(function () {
             url: 'locations?latitude=37.7833&longitude=-122.4167',
             data: {},
             success: function (result) {
-                locations = result;
-                locations_markers = create_location_markers(locations);
+                locations_markers = create_location_markers(result);
 
                 $('#loading').hide();
                 $('#map').css('opacity', 1);
