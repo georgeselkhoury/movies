@@ -106,7 +106,7 @@ Backend:
 * [Rake task](https://github.com/georgeselkhoury/movies/blob/master/lib/tasks/movies.rake) used to import the data 
  
 Website:
-* Code located in [public](https://github.com/georgeselkhoury/movies/tree/master/public) folder
+* Code located in public folder
 * [index.js](https://github.com/georgeselkhoury/movies/blob/master/public/assets/javascripts/index.js) contains all the website functionalities
 
 iPhone App:
@@ -159,7 +159,7 @@ Add caching with memcached on the APIs
 
 ##### Data Import
 
-Add more functionalities to the rake task movies:create_movies_database for data imports. Support multiple data sources, retries and multiple runs.
+Add more functionalities to the rake task movies:create_movies_database for data imports. Support multiple data sources, checksum between source and destination, retries and multiple runs.
 
 
 ## Dependencies
