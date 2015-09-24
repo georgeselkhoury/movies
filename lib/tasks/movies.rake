@@ -31,7 +31,7 @@ namespace :movies do
           end
 
           unless movie_source['locations'].blank?
-            location = Location.find_or_create_by(address: movie_source['locations'] + ', San Francisco, CA')
+            location = Location.find_or_create_by(address: movie_source['locations'])
             location.fun_facts = movie_source['fun_facts'] unless movie_source['fun_facts'].blank?
 
             movie.locations.push location unless movie.locations.include? location
