@@ -1,6 +1,6 @@
 # Movies by Locations
 
-Movies by Locations maintains a directory of movies and the diffrent locations where they have been filmed
+Movies by Locations maintains a directory of movies and the different locations where they have been filmed
 
 ## APIs
 
@@ -35,22 +35,22 @@ The following arguments can be used to scope the results to match the query crit
 
 ##### Examples:
 
-All movies with title Godzilla:
+All movies with title Godzilla:<br>
 http://movies-by-locations.herokuapp.com/movies?title=Godzilla 
 
-All movies with actors named Robert:
+All movies with actors named Robert:<br>
 http://movies-by-locations.herokuapp.com/movies?actor.full_name=Robert
 
-All movies directed by Georges Lucas: 
+All movies directed by Georges Lucas:<br>
 http://movies-by-locations.herokuapp.com/movies?director.full_name=george%20lucas
 
-All movies distributed by Columbia Pictures:
+All movies distributed by Columbia Pictures:<br>
 http://movies-by-locations.herokuapp.com/movies?distributor.name=columbia
 
-All movies produced by Universal Pictures:
+All movies produced by Universal Pictures:<br>
 http://movies-by-locations.herokuapp.com/movies?production_company.name=Universal%20Pictures
 
-All movies written by Sorkin:
+All movies written by Sorkin:<br>
 http://movies-by-locations.herokuapp.com/movies?writer.name=sorkin
 
 
@@ -74,10 +74,10 @@ The following arguments can be used to scope the results to match the geographic
 
 ##### Examples:
 
-All locations having movies filmed in San Francisco:
+All locations having movies filmed in San Francisco:<br>
 http://movies-by-locations.herokuapp.com/locations?latitude=37.7833&longitude=-122.4167
 
-All locations having movies filmed in Seattle:
+All locations having movies filmed in Seattle:<br>
 http://movies-by-locations.herokuapp.com/locations?latitude=47.6097&longitude=-122.3331
 
 
@@ -94,6 +94,11 @@ Have fun using the website and try the following:
 * Find where the Godzilla went in SF?
 * Find where the Steve Jobs movie have been filmed in SF?
 
+## iPhone App Client (Extra Feature)
+
+You can find the iPhone App Client on the [Movie-App GitHub repository](https://github.com/georgeselkhoury/Movie-App)
+You can find screenshots of the iPhone App [here](https://drive.google.com/a/attendible.com/folderview?id=0ByxU7-D_eJKid0pqVDNsclRKVFE&usp=sharing#)
+
 ## Code Review Instructions
 
 Backend:
@@ -104,6 +109,9 @@ Backend:
 Website:
 * Code located in public folder
 * index.js contains all the website functionalities
+
+iPhone App:
+* MapViewController contains all the app functionalities
 
 ## Unit Test
 
@@ -165,3 +173,9 @@ Website Assets:
 * Jquery
 * Bootstrap
 * Google Maps SDK
+
+## More Info
+
+* Full Stack Track (Emphasis on Backend)
+* Name: Georges El Khoury
+* LinkedIn Profile: https://www.linkedin.com/in/elkhourygeorges
