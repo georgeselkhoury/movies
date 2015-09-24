@@ -101,16 +101,16 @@ You can find the iPhone App Client [here](https://github.com/georgeselkhoury/Mov
 ## Code Review Instructions
 
 Backend:
-* Locations and Movies controllers
-* Models to get an understanding of the object relationships
-* Rake tasks used to import the data 
+* [Locations](https://github.com/georgeselkhoury/movies/blob/master/app/controllers/locations_controller.rb) and [Movies](https://github.com/georgeselkhoury/movies/blob/master/app/controllers/movies_controller.rb) controllers
+* [Models](https://github.com/georgeselkhoury/movies/tree/master/app/models) to get an understanding of the object relationships
+* [Rake task](https://github.com/georgeselkhoury/movies/blob/master/lib/tasks/movies.rake) used to import the data 
  
 Website:
-* Code located in public folder
-* index.js contains all the website functionalities
+* Code located in [public](https://github.com/georgeselkhoury/movies/tree/master/public) folder
+* [index.js](https://github.com/georgeselkhoury/movies/blob/master/public/assets/javascripts/index.js) contains all the website functionalities
 
 iPhone App:
-* MapViewController contains all the app functionalities
+* [MapViewController](https://github.com/georgeselkhoury/Movie-App/blob/master/Movie%20App/MapViewController.m) contains all the app functionalities
 
 ## Unit Test
 
